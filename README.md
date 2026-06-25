@@ -67,3 +67,13 @@ les invités ;
 
 les modes (+i, +t, +k, +l).
 
+*Pourquoi séparer ces classes ?
+
+Respecter le principe de responsabilité unique (Single Responsibility Principle). Chaque classe possède un rôle bien défini :
+
+Server : gérer le fonctionnement du serveur et les communications réseau.
+
+Client : représenter un utilisateur connecté et stocker ses informations.
+
+Channel : représenter une channel IRC et gérer ses membres ainsi que ses règles.
+
