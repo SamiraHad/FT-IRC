@@ -77,3 +77,8 @@ Client : représenter un utilisateur connecté et stocker ses informations.
 
 Channel : représenter une channel IRC et gérer ses membres ainsi que ses règles.
 
+<img width="1086" height="1448" alt="image" src="https://github.com/user-attachments/assets/eb3636c8-ebfc-4f06-b376-65ffe6dbda6e" />
+
+
+
+
