@@ -77,6 +77,10 @@ Client : représenter un utilisateur connecté et stocker ses informations.
 
 Channel : représenter une channel IRC et gérer ses membres ainsi que ses règles.
 
+
+*Le serveur crée une socket et écoute sur un port (par exemple 6667). Plusieurs clients peuvent se connecter à ce port. À chaque nouvelle connexion, le serveur obtient une nouvelle socket (un nouveau file descriptor) pour communiquer avec ce client. Chaque client se connecte en utilisant l'adresse IP et le port du serveur. Une fois connecté, il doit s'authentifier avec PASS, choisir un pseudo avec NICK et s'identifier avec USER. Après cette authentification, le serveur accepte les autres commandes (JOIN, PRIVMSG, MODE, etc.) et fait circuler les messages entre les clients.
+
+
 <img width="1086" height="1448" alt="image" src="https://github.com/user-attachments/assets/eb3636c8-ebfc-4f06-b376-65ffe6dbda6e" />
 
 
